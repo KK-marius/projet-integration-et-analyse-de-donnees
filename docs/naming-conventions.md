@@ -6,9 +6,9 @@ Ce document décrit les conventions de nommage utilisées pour les schémas, tab
 
 1. [Principes généraux](#principes-generaux)
 2. [Conventions de nommage des tables](#conventions-de-nommage-des-tables)
-   - [Règles Bronze](#regles-bronze)
-   - [Règles Silver](#regles-silver)
-   - [Règles Gold](#regles-gold)
+   - [Règles Bronze](#règles-bronze)
+   - [Règles Silver](#règles-silver)
+   - [Règles Gold](#règles-gold)
 3. [Conventions de nommage des colonnes](#conventions-de-nommage-des-colonnes)
    - [Clés substitutives](#cles-substitutives)
    - [Colonnes techniques](#colonnes-techniques)
