@@ -17,8 +17,8 @@ Ce document décrit les conventions de nommage utilisées pour les schémas, tab
 
 ## **Principes généraux**
 
-- **Convention de nommage** : Utiliser le format *snake_case*, avec des lettres minuscules et des underscores (`_`) pour séparer les mots.
-- **Langue** : Utiliser l’anglais pour tous les noms.
+- **Convention de nommage** : Le format *snake_case*, avec des lettres minuscules et des underscores (`_`) pour séparer les mots.
+- **Langue** : L’anglais pour tous les noms.
 - **Mots réservés** : Ne pas utiliser les mots réservés SQL comme noms d’objets.
 
 ---
@@ -26,7 +26,7 @@ Ce document décrit les conventions de nommage utilisées pour les schémas, tab
 ## **Conventions de nommage des tables**
 
 ### **Règles Bronze**
-- Tous les noms doivent commencer par le nom du système source, et les noms des tables doivent correspondre exactement à ceux du système source, sans modification.
+- Tous les noms commencent par le nom du système source, et les noms des tables correspondent exactement à ceux du système source, sans modification.
 - **`<sourcesystem>_<entity>`**  
   - `<sourcesystem>` : Nom du système source (ex : `crm`, `erp`).  
   - `<entity>` : Nom exact de la table dans le système source.  
@@ -35,11 +35,11 @@ Ce document décrit les conventions de nommage utilisées pour les schémas, tab
 ---
 
 ### **Règles Silver**
-- Tous les noms doivent commencer par le nom du système source, et les noms des tables doivent correspondre exactement à ceux du système source, sans modification.
+- Tous les noms commencent par le nom du système source, et les noms des tables correspondent exactement à ceux du système source, sans modification.
 - **`<sourcesystem>_<entity>`**  
   - `<sourcesystem>` : Nom du système source (ex : `crm`, `erp`).  
   - `<entity>` : Nom exact de la table dans le système source.  
-  - Exemple : `crm_customer_info` → Informations clients provenant du système CRM.
+  - Exemple : `erp_customer_info` → Informations clients provenant du système ERP.
 
 ---
 
